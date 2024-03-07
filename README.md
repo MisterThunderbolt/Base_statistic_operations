@@ -1,7 +1,7 @@
 # Base_statistic_operations
 Reads text file with numbers and gives: highest and lowest values, median and avarage value, biggest sequences of growing and decreasing numbers
 
-##### Compilation
+### Compilation
 To use a program you simply need to compile it via c++ compiler. For example gcc is one of the most common and free compilers.
 
 For Red Head distributives family of Linux we use dnf package mannager to install compiler (gcc) and module to compile c++ files (gcc-c++):
@@ -15,7 +15,7 @@ After installation we simply compile it by command g++:
 	/path/to/file - is a path where main.cpp file is located you can write a full path or a relative
 	/path/to/executable - is a path where our program will be placed, because it`s very simple it will be a one executable file
 
-##### Execution
+### Execution
 
 **After compilation** we can start our program:
 - path/to/executable/findNums /path/to/file/fileWithNumbers
